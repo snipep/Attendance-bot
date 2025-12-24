@@ -32,4 +32,4 @@ jobs:
           GREYTHR_URL: ${{ secrets.GREYTHR_URL }}
           GREYTHR_USER: ${{ secrets.GREYTHR_USER }}
           GREYTHR_PASS: ${{ secrets.GREYTHR_PASS }}
-        run: python punch.py
+        run: python greytHR_punch.py
