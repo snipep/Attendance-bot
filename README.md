@@ -62,11 +62,11 @@ on:
     # ⚠️ TIMEZONE NOTE: GitHub uses UTC time. 
     # IST is UTC + 5:30.
     
-    # Morning Punch: 10:00 AM IST (04:30 UTC) - Mon to Fri
-    - cron: '30 4 * * 1-5'
+    # Morning Punch: 9:30 AM IST (04:00 UTC) - Mon to Fri
+    - cron: '00 4 * * 1-5'
     
-    # Evening Punch: 07:30 PM IST (14:00 UTC) - Mon to Fri
-    - cron: '0 14 * * 1-5'
+    # Evening Punch: 08:00 PM IST (14:30 UTC) - Mon to Fri
+    - cron: '30 14 * * 1-5'
 
   # Allows manual trigger from Actions tab for testing
   workflow_dispatch:
